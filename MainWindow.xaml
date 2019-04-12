@@ -1,0 +1,25 @@
+﻿<Window x:Class="_184517SalesProblem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184517SalesProblem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtInput" ></TextBox>
+        <Button x:Name="btnJanuary" Click="btnJanuary_Click">January</Button>
+        <Button x:Name="btnFebruary" Click="btnFebruary_Click">February</Button>
+        <Button x:Name="btnMarch" Click="btnMarch_Click">March</Button>
+        <Button x:Name="btnApril" Click="btnApril_Click">April</Button>
+        <Button x:Name="btnMay" Click="btnMay_Click">May</Button>
+        <Button x:Name="btnJune" Click="btnJune_Click">June</Button>
+        <Button x:Name="btnJuly" Click="btnJuly_Click">July</Button>
+        <Button x:Name="btnAugust" Click="btnAugust_Click">August</Button>
+        <Button x:Name="btnSeptember" Click="btnSeptember_Click">September</Button>
+        <Button x:Name="btnOctober" Click="btnOctober_Click">October</Button>
+        <Button x:Name="btnNovember" Click="btnNovember_Click">November</Button>
+        <Button x:Name="btnDecember" Click="btnDecember_Click">December</Button>
+        <Label x:Name="lblOutput"/>
+    </StackPanel>
+</Window>
