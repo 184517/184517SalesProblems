@@ -1,4 +1,8 @@
-﻿using System;
+/* Jordan Ross
+*April 12, 2019
+*Sales problem program
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
